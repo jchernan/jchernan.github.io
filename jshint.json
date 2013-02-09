@@ -1,0 +1,7 @@
+{
+  "expr":      true,
+  "laxbreak":  true,
+  "trailing":  true,
+	"white":     true,
+	"indent":    2
+}

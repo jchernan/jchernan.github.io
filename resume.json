@@ -1,0 +1,113 @@
+{ "resume": [
+
+  {
+    "institute": {
+      "name": "Leaf",
+      "group": "",
+      "link": "http://www.leaf.me/"
+    },
+    "title": "Software Engineer",
+    "dates": "February 2013 - Present",
+    "category": "Professional"
+  },
+
+  {
+    "institute": {
+      "name": "Oracle",
+      "group": "Oracle Entitlements Server Group",
+      "link": "http://www.oracle.com/"
+    },
+    "title": "Member of Technical Staff",
+    "dates": "July 2011 - January 2013",
+    "category": "Professional"
+  },
+
+  {
+    "institute": {
+      "name": "France Telecom Research and Development",
+      "group": "iPhone Applications Team",
+      "link": "http://www.orange.com"
+    },
+    "title": "Intern",
+    "dates": "September 2009 - January 2010",
+    "category": "Internship"
+  },
+
+  {
+    "institute": {
+      "name": "Agnitio",
+      "group": "Software Development Team",
+      "link": "http://www.agnitio.es/"
+    },
+    "title": "Intern",
+    "dates": "June 2009 - September 2009",
+    "category": "Internship"
+  },
+
+  {
+    "institute": {
+      "name": "IBM",
+      "group": "Rational Software Group",
+      "link": "http://www.ibm.com"
+    },
+    "title": "Intern",
+    "dates": "May 2008 - August 2008",
+    "category": "Internship"
+  },
+
+  {
+    "institute": {
+      "name": "Oracle",
+      "group": "Identity Management Group",
+      "link": "http://www.oracle.com"
+    },
+    "title": "Intern",
+    "dates": "June 2007 - August 2007",
+    "category": "Internship"
+  },
+
+  {
+    "institute": {
+      "name": "MIT Media Lab",
+      "group": "Personal Robots Group",
+      "link": "http://media.mit.edu"
+    },
+    "title": "Research Assistant",
+    "dates": "February 2010 - June 2011",
+    "category": "Academic"
+  },
+
+  {
+    "institute": {
+      "name": "Massachusetts Institute of Technology",
+      "group": "",
+      "link": "http://web.mit.edu"
+    },
+    "title": "Master of Engineering in Electrical Engineering and Computer Science",
+    "dates": "June 2011",
+    "category": "Academic"
+  },
+
+  {
+    "institute": {
+      "name": "Massachusetts Institute of Technology",
+      "group": "",
+      "link": "http://web.mit.edu"
+    },
+    "title": "Bachelor of Science in Computer Science and Engineering",
+    "dates": "June 2009",
+    "category": "Academic"
+  },
+
+  {
+    "institute": {
+      "name": "Escuela Secundaria de la Universidad de Puerto Rico (UHS)",
+      "group": "",
+      "link": "http://uhs.uprrp.edu"
+    },
+    "title": "High School Diploma",
+    "dates": "June 2005",
+    "category": "Academic"
+  }
+
+]}
