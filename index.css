@@ -2,6 +2,7 @@ body {
   background-image: url('furley_bg/furley_bg.png');
   background-position: initial initial;
   background-repeat: initial initial;
+  padding-top: 40px;
 }
 section {
   padding-top: 10px;
