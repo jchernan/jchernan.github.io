@@ -1,5 +1,5 @@
 body {
-  background-image: url('furley_bg/furley_bg.png');
+  background-image: url('image/furley_bg.png');
   background-position: initial initial;
   background-repeat: initial initial;
   padding-top: 40px;
@@ -18,6 +18,9 @@ a:hover {
   font-weight: bold;
   line-height: 22px;
   color: #CC0000;
+}
+#gicon {
+  opacity: 0.6;
 }
 dl dt {
   font-size: 15px;
