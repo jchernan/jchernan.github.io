@@ -1,6 +1,6 @@
 var Resume = function () {
 
-  var jsonFile = 'resume.json';
+  var jsonFile = 'data/resume.json';
   var resume = {};
 
   $.getJSON(jsonFile, function (data) {
@@ -29,7 +29,7 @@ var Resume = function () {
 
 var Video = function () {
 
-  var jsonFile = 'video.json';
+  var jsonFile = 'data/video.json';
   var videos = [];
 
   var header = '<div class="row">'
