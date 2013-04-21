@@ -1,4 +1,35 @@
-var Resume = function () {
+/*
+* Alert if using old Internet Explorer version
+*/
+var alertIEVersion = function () {
+
+  // using 'IE Conditional Comment' detection code described in
+  // http://ajaxian.com/archives/attack-of-the-ie-conditional-comment
+
+  var v = 3;
+  var div = document.createElement('div');
+  do {
+    div.innerHTML = '<!--[if gt IE ' + (++v) + ']><i></i><![endif]-->';
+  } while (div.getElementsByTagName('i')[0])
+
+  if (v > 4 && v < 10) {
+    // alert if IE version is less than 10
+    var alert = '<div class="alert">'
+      + '<button type="button" class="close" data-dismiss="alert">'
+      + '&times;</button>'
+      + '<strong>Warning!</strong> You are using an old version of '
+      + 'Internet Explorer. For a better browsing experience upgrade '
+      + 'to Internet Explorer 10.'
+      + '</div>';
+    $(alert).prependTo('#content');
+  }
+
+}();
+
+/*
+* Read and load resume content
+*/
+var resume = function () {
 
   var jsonFile = 'data/resume.json';
   var resume = {};
@@ -27,7 +58,10 @@ var Resume = function () {
 
 }();
 
-var Video = function () {
+/*
+* Read and load video content
+*/
+var video = function () {
 
   var jsonFile = 'data/video.json';
   var videos = [];
@@ -64,3 +98,4 @@ var Video = function () {
   });
 
 }();
+
