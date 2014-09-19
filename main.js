@@ -66,19 +66,25 @@ var video = function () {
   var jsonFile = 'data/video.json';
   var videos = [];
 
-  var header = '<div class="row">'
-    + '<div class="col-xs-11 col-sm-9 col-md-8 '
-    + 'col-xs-offset-1 col-sm-offset-1 col-md-offset-1">'
-    + '<iframe width="420" height="315"';
-  var footer = 'frameborder="0" allowfullscreen>'
-    + '</iframe>';
+  var rowStart = '<div class="row">'
+    + '<div class="col-xs-12 col-sm-8 col-md-6 '
+    + 'col-sm-offset-1 col-md-offset-1" '
+    + 'style="padding-bottom:10px;">';
+  var rowEnd = '</div></div>'
+
+  var iframeStart = '<div class="embed-responsive embed-responsive-4by3">'
+    + '<iframe allowfullscreen class="embed-responsive-item" ';
+  var iframeEnd = '></iframe></div>';
 
   $.getJSON(jsonFile, function (data) {
     $.each(data.video, function (i, video) {
       var content = [];
-      content.push(header);
+      content.push(rowStart);
+      content.push(iframeStart);
       content.push('src="' + video.link + '"');
-      content.push(footer);
+      content.push(iframeEnd);
+      content.push(rowEnd);
+      content.push(rowStart);
       content.push('<dl>');
       content.push('<dt>' + video.title + '</dt>');
       $.each(video.festival, function (j, festival) {
@@ -88,7 +94,8 @@ var video = function () {
           content.push('<dd class="award">' + award + '</dd>');
         });
       });
-      content.push('</dl></div></div>');
+      content.push('</dl>');
+      content.push(rowEnd);
       videos.push(content);
     });
 
