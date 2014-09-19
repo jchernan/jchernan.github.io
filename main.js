@@ -67,7 +67,8 @@ var video = function () {
   var videos = [];
 
   var header = '<div class="row">'
-    + '<div class="col-xs-12 col-sm-8 col-md-8 col-md-offset-1">'
+    + '<div class="col-xs-11 col-sm-9 col-md-8 '
+    + 'col-xs-offset-1 col-sm-offset-1 col-md-offset-1">'
     + '<iframe width="420" height="315"';
   var footer = 'frameborder="0" allowfullscreen>'
     + '</iframe>';
