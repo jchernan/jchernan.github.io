@@ -2,12 +2,23 @@
 
   {
     "institute": {
+      "name": "Amazon",
+      "group": "Digital Products Team",
+      "link": "http://www.amazon.com/"
+    },
+    "title": "Software Development Engineer",
+    "dates": "April 2015 - Present",
+    "category": "Professional"
+  },
+
+  {
+    "institute": {
       "name": "Leaf",
-      "group": "Web Services Group",
+      "group": "Web Services Team",
       "link": "http://www.leaf.me/"
     },
     "title": "Senior Software Engineer",
-    "dates": "February 2013 - Present",
+    "dates": "February 2013 - February 2015",
     "category": "Professional"
   },
 
