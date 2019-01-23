@@ -2,104 +2,105 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Julián Hernández Muñoz</title>
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+      integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+      crossorigin="anonymous">
     <link rel="stylesheet" href="index.css">
   </head>
 
   <body>
-    <header class="navbar navbar-default navbar-fixed-top" role="banner">
-      <div class="container-fluid col-sm-offset-1 col-md-offset-1">
-        <div class="navbar-header">
-          <button class="navbar-toggle collapsed" type="button"
-            data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">Julián Hernández Muñoz</a>
-        </div>
-        <nav class="collapse navbar-collapse" role="navigation">
-          <ul class="nav navbar-nav">
-            <li><a href="#about">About</a></li>
-            <li><a href="#video">Video</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
 
-    <div id="content" class="container-fluid col-sm-offset-1 col-md-offset-1">
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="/">Julián Hernández Muñoz</a>
+        <button class="navbar-toggler" type="button"
+          data-toggle="collapse" data-target="#navbar-collapse"
+          aria-controls="navbar-collapse" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-collapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#video">Video</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+    <div class="container">
 
       <section id="welcome">
-        <div class="page-header">
-          <h1>Welcome</h1>
-        </div>
+        <h1 class="pb-2 mb-4 border-bottom">Welcome</h1>
         <div class="row">
-          <div class="col-xs-12 col-sm-9 col-md-8
-              col-sm-offset-1 col-md-offset-1"
-            style="padding-bottom:20px">
-            <a id="mylink" 
-              href="http://www.julianhernandezmunoz.com">
-              www.julianhernandezmunoz.com</a>
-          </div>
-          <div class="col-xs-12 col-sm-9 col-md-8
-              col-sm-offset-1 col-md-offset-1">
-            <a href="http://www.linkedin.com/in/jchernan/">
-              <img id="gicon" src="image/glyphicons_397_linked_in.png"></a>
-            <a href="https://github.com/jchernan">
-              <img id="gicon" src="image/glyphicons_401_github.png"></a>
-            <a href="http://julianhernandezmunoz.tumblr.com">
-              <img id="gicon" src="image/glyphicons_388_tumblr.png"></a>
+          <div class="col-md-11 offset-md-1">
+            <div class="my-2">
+              <a class="lead font-weight-bold mylink"
+                href="http://julianhernandezmunoz.com">
+                julianhernandezmunoz.com
+              </a>
+            </div>
+            <div>
+              <a href="http://www.linkedin.com/in/jchernan/">
+                <img class="gicon" src="image/glyphicons_397_linked_in.png">
+              </a>
+              <a href="https://github.com/jchernan">
+                <img class="gicon" src="image/glyphicons_401_github.png">
+              </a>
+              <a href="http://julianhernandezmunoz.tumblr.com">
+                <img class="gicon" src="image/glyphicons_388_tumblr.png">
+              </a>
+            </div>
           </div>
         </div>
       </section> <!-- end section welcome -->
 
       <section id="about">
-        <div class="page-header">
-          <h1>About</h1>
-        </div>
+        <h1 class="pb-2 mb-4 border-bottom">About</h1>
         <div class="row">
-          <div class="col-xs-12 col-sm-9 col-md-8
-              col-sm-offset-1 col-md-offset-1">
+          <div class="col-md-11 offset-md-1">
             <h2>Professional</h2>
-            <div id="Professional"></div>
+            <div id="professional"></div>
             <h2>Internships</h2>
-            <div id="Internship"></div>
+            <div id="internship"></div>
             <h2>Academic</h2>
-            <div id="Academic"></div>
+            <div id="academic"></div>
           </div>
         </div> <!-- end row -->
       </section> <!-- end section about -->
 
       <section id="video">
-        <div class="page-header">
-          <h1>Video</h1>
+        <h1 class="pb-2 mb-4 border-bottom">Video</h1>
+        <div class="row">
+          <div class="col-md-10 col-lg-7 offset-md-1">
+            <div id="videos"></div>
+          </div>
         </div>
-        <div id="Video"></div>
       </section> <!-- end section video -->
 
     </div>
 
     <footer class="footer">
-      <div class="container-fluid col-sm-offset-1 col-md-offset-1">
-        <div class="row">
-          <div class="col-xs-6 col-sm-6 col-md-6">
-            last updated: may 2015
-          </div>
-          <div class="col-xs-6 col-sm-4 col-md-4">
-            <a class="pull-right btn btn-default" href="#">
-              <span class="glyphicon glyphicon-chevron-up"></span>
-            </a>
-          </div>
-        </div>
+      <div class="container">
+        last updated: january 2019
       </div>
     </footer>
 
-    <script type="text/javascript" src="jquery/jquery.min.js"></script>
-    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script> 
-    <script type="text/javascript" src="main.js"></script> 
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+      integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+      crossorigin="anonymous"></script>
+    <script type="text/javascript" src="main.js"></script>
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

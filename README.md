@@ -1,6 +1,6 @@
-personal-website
+Personal Website
 ================
 
 ## License
 
-Code released under the [MIT license](http://github.com/jchernan/personal-website/blob/master/LICENSE). 
+Code released under the [MIT license](https://github.com/jchernan/jchernan.github.io/blob/master/LICENSE).
