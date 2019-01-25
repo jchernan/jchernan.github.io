@@ -1,9 +1,12 @@
 $(function () {
 
-  function dateHtml(date) {
-    return '<span class="small text-muted font-italic ml-3">('
-      + date
-      + ')</span>';
+  function datedDescription(description, date, content) {
+    content.push('<dd class="d-flex flex-wrap align-items-center">');
+    content.push('<div>' + description + '</div>');
+    content.push('<div class="small text-muted font-italic ml-3">(');
+    content.push(date);
+    content.push(')</div>');
+    content.push('</dd>');
   }
 
   /*
@@ -21,11 +24,10 @@ $(function () {
       if (val.institute.group) {
         title = title + ', ' + val.institute.group;
       }
-      var date = dateHtml(val.dates);
       var institute = '<a href="' + val.institute.link + '">'
         + val.institute.name + '</a>';
       content.push('<dt>' + title + '</dt>');
-      content.push('<dd>' + institute + ' ' + date + '</dd>');
+      datedDescription(institute, val.dates, content);
     });
     $.each(resume, function (category, content) {
       $('#' + category).append('<dl>' + content.join('') + '</dl>');
@@ -49,8 +51,7 @@ $(function () {
       content.push('<dl class="py-3">');
       content.push('<dt>' + video.title + '</dt>');
       $.each(video.festival, function (j, festival) {
-        var date = dateHtml(festival.date);
-        content.push('<dd>' + festival.name + ' ' + date + '</dd>');
+        datedDescription(festival.name, festival.date, content);
         content.push('<ul class="font-italic">');
         $.each(festival.awards, function (k, award) {
           content.push('<li>' + award + '</li>');
