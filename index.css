@@ -10,10 +10,11 @@ a:hover {
 a:visited {
   text-decoration: none;
 }
-.mylink {
+.header-link {
   color: #CC0000;
 }
-.gicon {
+.header-icon {
+  width: 24px;
   opacity: 0.6;
 }
 dl dt {
