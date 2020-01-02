@@ -4,7 +4,7 @@
     "institute": {
       "name": "Andeno",
       "group": null,
-      "link": "http://www.andeno.com/"
+      "link": "https://www.andeno.com"
     },
     "title": "Co-founder and CTO",
     "dates": "Jul 2016 - Present",
@@ -13,9 +13,20 @@
 
   {
     "institute": {
+      "name": "Claimbot",
+      "group": null,
+      "link": "https://www.claimbotcx.com"
+    },
+    "title": "Software Engineer",
+    "dates": "Jun 2019 - Present",
+    "category": "professional"
+  },
+
+  {
+    "institute": {
       "name": "Amazon",
       "group": "Digital Products Team",
-      "link": "http://www.amazon.com/"
+      "link": "https://www.amazon.com/"
     },
     "title": "Software Development Engineer",
     "dates": "Apr 2015 - May 2016",
@@ -26,7 +37,7 @@
     "institute": {
       "name": "Leaf",
       "group": "Web Services Team",
-      "link": "http://en.wikipedia.org/wiki/Leaf_(payment_platform)"
+      "link": "https://en.wikipedia.org/wiki/Leaf_(payment_platform)"
     },
     "title": "Senior Software Engineer",
     "dates": "Feb 2013 - Feb 2015",
@@ -37,7 +48,7 @@
     "institute": {
       "name": "Oracle",
       "group": "Oracle Entitlements Server Group",
-      "link": "http://www.oracle.com/"
+      "link": "https://www.oracle.com"
     },
     "title": "Member of Technical Staff",
     "dates": "Jul 2011 - Jan 2013",
@@ -48,7 +59,7 @@
     "institute": {
       "name": "France Telecom R&D",
       "group": "iPhone Applications Team",
-      "link": "http://www.orange.com"
+      "link": "https://www.orange.com"
     },
     "title": "Intern",
     "dates": "Sep 2009 - Jan 2010",
@@ -59,7 +70,7 @@
     "institute": {
       "name": "Agnitio",
       "group": "Software Development Team",
-      "link": "http://www.agnitio.es/"
+      "link": "http://www.agnitio.es"
     },
     "title": "Intern",
     "dates": "Jun 2009 - Sep 2009",
@@ -70,7 +81,7 @@
     "institute": {
       "name": "IBM",
       "group": "Rational Software Group",
-      "link": "http://www.ibm.com"
+      "link": "https://www.ibm.com"
     },
     "title": "Intern",
     "dates": "May 2008 - Aug 2008",
@@ -81,7 +92,7 @@
     "institute": {
       "name": "Oracle",
       "group": "Identity Management Group",
-      "link": "http://www.oracle.com"
+      "link": "https://www.oracle.com"
     },
     "title": "Intern",
     "dates": "Jun 2007 - Aug 2007",
@@ -92,7 +103,7 @@
     "institute": {
       "name": "MIT Media Lab",
       "group": "Personal Robots Group",
-      "link": "http://media.mit.edu"
+      "link": "https://media.mit.edu"
     },
     "title": "Graduate Research Assistant",
     "dates": "Feb 2010 - Jun 2011",
@@ -103,7 +114,7 @@
     "institute": {
       "name": "Massachusetts Institute of Technology",
       "group": null,
-      "link": "http://web.mit.edu"
+      "link": "https://web.mit.edu"
     },
     "title": "Master of Engineering in Electrical Engineering and Computer Science",
     "dates": "June 2011",
@@ -114,7 +125,7 @@
     "institute": {
       "name": "Massachusetts Institute of Technology",
       "group": null,
-      "link": "http://web.mit.edu"
+      "link": "https://web.mit.edu"
     },
     "title": "Bachelor of Science in Computer Science and Engineering",
     "dates": "June 2009",
@@ -125,7 +136,7 @@
     "institute": {
       "name": "Escuela Secundaria de la Universidad de Puerto Rico (UHS)",
       "group": null,
-      "link": "http://uhs.uprrp.edu"
+      "link": "https://uhs.upr.edu"
     },
     "title": "High School Diploma",
     "dates": "June 2005",
