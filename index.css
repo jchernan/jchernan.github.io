@@ -1,20 +1,15 @@
+h4 {
+  margin-top: 1.5rem;
+}
 section {
-  padding-top: 30px;
-}
-a {
-  color: inherit;
-}
-a:hover {
-  text-decoration: none;
-}
-a:visited {
-  text-decoration: none;
+  padding-top: 1.5rem;
 }
 .header-link {
   color: #CC0000;
 }
 .header-icon {
-  width: 24px;
+  width: 1.2rem;
+  padding-bottom: 0.2rem;
   opacity: 0.6;
 }
 dl dt {
@@ -23,8 +18,13 @@ dl dt {
 ul {
   list-style-type: none;
 }
+pre code {
+  display: block;
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  background-color: #f8f9fa;
+}
 .footer {
-  padding: 10px 10px;
-  margin-top: 20px;
+  padding: 1.0rem;
   background-color: #f8f9fa;
 }

@@ -1,0 +1,39 @@
+<h4>One line browser notepad</h4>
+Type in the browser's URL bar:
+<pre><code>data:text/html, &lt;html contenteditable&gt;</code></pre>
+<a href="https://coderwall.com/p/lhsrcq/one-line-browser-notepad">Source</a>
+
+<h4>Simple HTTP server</h4>
+<pre><code>npm install http-server -g
+http-server [path] [options]</code></pre>
+<a href="https://www.npmjs.com/package/http-server">Source</a>
+
+<h4>Pretty print JSON and XML</h4>
+<pre><code>echo '{}' | python -m json.tool
+echo '&lt;xml&gt;&lt;/xml&gt;' | xmllint --format -
+</code></pre>
+
+<h4>Split Git repository</h4>
+<pre><code>git subtree split --prefix path/to/code --branch new-branch
+git push ../new-repository/ new-branch
+git subtree add --prefix path/to/code --branch master new-branch
+</code></pre>
+<a href="https://makingsoftware.wordpress.com/2013/02/16/using-git-subtrees-for-repository-separation">Source</a>
+
+<h4>Rewrite name and email of author in Git commits</h4>
+This rewrites the Git history!
+<pre><code>export OLD_EMAIL="old@email.com"
+export NEW_EMAIL="new@email.com"
+export NEW_NAME="New Name"
+
+git filter-branch -f --commit-filter '
+  if [ "$GIT_AUTHOR_EMAIL" = "$OLD_EMAIL" ]
+  then
+    export GIT_AUTHOR_NAME="$NEW_NAME"
+    export GIT_AUTHOR_EMAIL="$NEW_EMAIL"
+    export GIT_COMMITTER_NAME="$NEW_NAME"
+    export GIT_COMMITTER_EMAIL="$NEW_EMAIL"
+  fi
+  git commit-tree "$@"
+'</code></pre>
+<a href="https://stackoverflow.com/questions/750172/how-to-change-the-author-and-committer-name-and-e-mail-of-multiple-commits-in-gi">Source</a>

@@ -24,7 +24,8 @@ $(function () {
       if (val.institute.group) {
         title = title + ', ' + val.institute.group;
       }
-      var institute = '<a href="' + val.institute.link + '">'
+      var institute = '<a class="text-reset text-decoration-none" href="'
+        + val.institute.link + '">'
         + val.institute.name + '</a>';
       content.push('<dt>' + title + '</dt>');
       datedDescription(institute, val.dates, content);
@@ -59,8 +60,13 @@ $(function () {
         content.push('</ul>');
       });
       content.push('</dl>');
-      $('#videos').append(content.join(''));
+      $('.video-content').append(content.join(''));
     });
   });
+
+  /*
+   * Load programmer's log content
+   */
+  $('.log-content').load('log.html')
 
 });
