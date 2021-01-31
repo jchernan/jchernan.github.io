@@ -1,8 +1,12 @@
+.container {
+  max-width: 40em;
+}
+h2 {
+  margin-top: 2.0rem;
+  margin-bottom: 1.5rem;
+}
 h4 {
   margin-top: 1.5rem;
-}
-section {
-  padding-top: 1.5rem;
 }
 .header-link {
   color: #CC0000;
@@ -23,8 +27,8 @@ pre code {
   margin-top: 0.5rem;
   padding: 0.5rem;
   background-color: #f8f9fa;
+  word-wrap: normal;
 }
 .footer {
-  padding: 1.0rem;
   background-color: #f8f9fa;
 }
